@@ -46,7 +46,7 @@ function Ytapp() {
   
   return (
     <>
-      <div>2 Day or Day 2?</div>
+      <div>3 Day or Day 3?</div>
       <br />
       <TodoList todos = {todos} toggleTodo = {toggleTodo}/>
       <input ref={toDoNameRef} type="text" placeholder="Enter a task"/>
