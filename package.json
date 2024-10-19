@@ -8,8 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run deploy",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "npm run deploy",
     "homepage": "https://github.com/aljopaul/todolist_app.git"
   },
   "dependencies": {
